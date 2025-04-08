@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Julien Parlant - Développeur Web Créatif">
+    <meta name="theme-color" content="#002B5B">
+    <title>Julien Parlant - Portfolio</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="js/main.js" as="script">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="#" class="logo">
+                <span class="logo-initials">J</span>
+                <span class="logo-initials">P</span>
+                <span class="logo-separator"></span>
+                <span class="logo-web">dev</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#tech-watch">Veille</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="about">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-text">
+                    <span class="subheading">Bonjour, je suis Julien Parlant</span>
+                    <h1>Développeur Web</h1>
+                    <p>Passionné par le développement web et la création d'applications modernes. Fort d'une expérience en linguistique, j'apporte une perspective unique à la conception d'interfaces utilisateur intuitives.</p>
+                    <div class="header-buttons">
+                        <a href="#contact" class="btn btn-primary">Contact</a>
+                        <a href="#projects" class="btn btn-outline">Projets</a>
+                        <a href="docs/cv_julien_parlant.pdf" class="btn btn-outline" target="_blank">
+                            <i class="fas fa-download"></i> CV</a>
+                    </div>
+                </div>
+                <div class="header-image">
+                    <img src="img/profile.jpg" alt="Julien Parlant" loading="lazy" width="400" height="400">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Compétences</h2>
+            <div class="speciality-header">
+                <h3>Spécialité SLAM</h3>
+                <p>Compétences (en cours d'acquisition)</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Langages & Environnements</h3>
+                    <ul class="skill-list">
+                        <li>C# (Visual Studio)</li>
+                        <li>PHP/HTML/CSS/Javascript</li>
+                        <li>Java (Eclipse)</li>
+                        <li>Python (PyCharm)</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-wordpress"></i> CMS</h3>
+                    <ul class="skill-list">
+                        <li>WordPress</li>
+                        <li>HubCMS</li>
+                        <li>Shopify</li>
+                        <li>Joomla</li>
+                        <li>Drupal</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> SGBD</h3>
+                    <ul class="skill-list">
+                        <li>MySQL</li>
+                        <li>PostgreSQL</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-check-circle"></i> Qualité logicielle</h3>
+                    <ul class="skill-list">
+                        <li>Normes : KISS, DRY, SOLID</li>
+                        <li>Tests : unitaires, fonctionnels</li>
+                        <li>Analyse de code : Sonarlint</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-project-diagram"></i> Méthodes de conception</h3>
+                    <ul class="skill-list">
+                        <li>Merise/2</li>
+                        <li>UML</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fab fa-github"></i> Travail collaboratif</h3>
+                    <ul class="skill-list">
+                        <li>GitHub</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="projects-section">
+                <h3><i class="fas fa-code-branch"></i> Projets de développement (en cours)</h3>
+                <div class="project-grid">
+                    <div class="project-item">
+                        <h4>C#</h4>
+                        <ul>
+                            <li>Agenda (POO et sérialisation)</li>
+                            <li>Gestion des habilitations (POO, MVC, authentification, MySQL)</li>
+                        </ul>
+                    </div>
+                    <div class="project-item">
+                        <h4>PHP / HTML / CSS / Javascript</h4>
+                        <ul>
+                            <li>Interventions sur un site responsive de présentation d'articles (corrections, RGPD, déploiement, référencement)</li>
+                        </ul>
+                    </div>
+                    <div class="project-item">
+                        <h4>WordPress</h4>
+                        <ul>
+                            <li>Site e-commerce</li>
+                        </ul>
+                    </div>
+                    <div class="project-item">
+                        <h4>Java</h4>
+                        <ul>
+                            <li>Jeu de combat 2D en Client/Serveur (graphique, objet, MVC, sockets)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2>Expérience Professionnelle</h2>
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div class="experience-title">
+                        <h3>Professeur de français et de FLE</h3>
+                        <span class="company">Julien Parlant Formations</span>
+                    </div>
+                    <div class="experience-meta">
+                        <span class="duration">
+                            <i class="fas fa-calendar-alt"></i>
+                            Janvier 2007 - Présent
+                        </span>
+                        <span class="location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Neuilly-sur-Seine, Île-de-France
+                        </span>
+                    </div>
+                </div>
+                <div class="experience-content">
+                    <div class="achievements">
+                        <div class="achievement-item">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <p>Création et animation de cours pour des publics variés</p>
+                        </div>
+                        <div class="achievement-item">
+                            <i class="fas fa-book"></i>
+                            <p>Développement de supports pédagogiques</p>
+                        </div>
+                        <div class="achievement-item">
+                            <i class="fas fa-laptop"></i>
+                            <p>Gestion de plateforme d'apprentissage en ligne</p>
+                        </div>
+                    </div>
+                    <div class="skills-used">
+                        <span class="skill-tag">Pédagogie</span>
+                        <span class="skill-tag">FLE</span>
+                        <span class="skill-tag">E-learning</span>
+                        <span class="skill-tag">Formation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <div class="container">
+            <h2>Formation</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-item-content">
+                        <div class="timeline-logo">
+                            <img src="img/logos/madbox.webp" alt="Logo Madbox" loading="lazy" width="150" height="50">
+                        </div>
+                        <div class="timeline-content">
+                            <span class="date">Août 2025</span>
+                            <h3>Stage Développeur</h3>
+                            <p>Madbox</p>
+                            <div class="tags">
+                                <span>Développement Web</span>
+                                <span>Stage</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-item-content">
+                        <div class="timeline-logo">
+                            <img src="img/logos/CNED.png" alt="Logo CNED">
+                        </div>
+                        <div class="timeline-content">
+                            <span class="date">2024 - 2026</span>
+                            <h3>BTS SIO option SLAM</h3>
+                            <p>CNED</p>
+                            <div class="tags">
+                                <span>Développement</span>
+                                <span>Solutions Logicielles</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-item-content">
+                        <div class="timeline-logo">
+                            <img src="img/logos/42.jpg" alt="Logo 42">
+                        </div>
+                        <div class="timeline-content">
+                            <span class="date">Août - Sept. 2024</span>
+                            <h3>Piscine 42</h3>
+                            <p>42, Paris</p>
+                            <div class="tags">
+                                <span>Algorithmie</span>
+                                <span>C</span>
+                                <span>Shell</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-item-content">
+                        <div class="timeline-logo">
+                            <img src="img/logos/skillz.png" alt="Logo Skillz'Up">
+                        </div>
+                        <div class="timeline-content">
+                            <span class="date">Sept. 2024</span>
+                            <h3>Formation Développement Web</h3>
+                            <p>Skillz'Up, Paris</p>
+                            <div class="tags">
+                                <span>HTML/CSS</span>
+                                <span>JavaScript</span>
+                                <span>React</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-item-content">
+                        <div class="timeline-logo">
+                            <img src="img/logos/Stendhal.png" alt="Logo Université Stendhal">
+                        </div>
+                        <div class="timeline-content">
+                            <span class="date">2011</span>
+                            <h3>Master Recherche en Sciences du Langage</h3>
+                            <p>Université Stendhal Grenoble 3</p>
+                            <div class="tags">
+                                <span>Linguistique</span>
+                                <span>Recherche</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-item-content">
+                        <div class="timeline-logo">
+                            <img src="img/logos/rennes2.png" alt="Logo Université Rennes 2">
+                        </div>
+                        <div class="timeline-content">
+                            <span class="date">2008</span>
+                            <h3>Licence LLCE Espagnol</h3>
+                            <p>Université Rennes 2</p>
+                            <div class="tags">
+                                <span>Espagnol</span>
+                                <span>Littérature</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Mes Projets</h2>
+            <div class="section-intro">
+                <p>En parallèle de ma formation, je développe plusieurs projets qui me permettent de mettre en pratique mes compétences et d'explorer de nouvelles technologies.</p>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>Gestion des habilitations</h3>
+                        <p>Application de gestion des droits d'accès utilisant une architecture MVC et intégrant une authentification sécurisée.</p>
+                        <div class="project-meta">
+                            <div class="tech-stack">
+                                <span>C#</span>
+                                <span>POO</span>
+                                <span>MVC</span>
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>Agenda</h3>
+                        <p>Application de gestion d'agenda implémentant les principes de la POO et la sérialisation des données.</p>
+                        <div class="project-meta">
+                            <div class="tech-stack">
+                                <span>C#</span>
+                                <span>POO</span>
+                                <span>Sérialisation</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>Site E-commerce WordPress</h3>
+                        <p>Développement d'une boutique en ligne complète avec WordPress et WooCommerce.</p>
+                        <div class="project-meta">
+                            <div class="tech-stack">
+                                <span>WordPress</span>
+                                <span>WooCommerce</span>
+                                <span>PHP</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>Jeu de Combat 2D</h3>
+                        <p>Développement d'un jeu en architecture Client/Serveur avec interface graphique et communication réseau.</p>
+                        <div class="project-meta">
+                            <div class="tech-stack">
+                                <span>Java</span>
+                                <span>MVC</span>
+                                <span>Sockets</span>
+                                <span>UI</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>Site Web Responsive</h3>
+                        <p>Améliorations d'un site de présentation d'articles : corrections, mise en conformité RGPD, optimisation SEO.</p>
+                        <div class="project-meta">
+                            <div class="tech-stack">
+                                <span>PHP</span>
+                                <span>HTML/CSS</span>
+                                <span>JavaScript</span>
+                                <span>SEO</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="tech-watch" class="section">
+        <div class="container">
+            <h2>Veille Technologique</h2>
+            <div class="section-intro">
+                <p>Je maintiens une veille technologique active pour rester à jour avec les dernières innovations du développement web.</p>
+            </div>
+
+            <div class="tech-watch-grid">
+                <div class="tech-watch-card">
+                    <div class="tech-watch-header">
+                        <i class="fas fa-rss"></i>
+                        <h3>Sources de Veille</h3>
+                    </div>
+                    <ul class="tech-watch-list">
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Newsletters techniques (JavaScript Weekly, CSS Weekly)</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Blogs spécialisés (CSS-Tricks, Smashing Magazine)</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Plateformes de développement (GitHub, Stack Overflow)</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Réseaux sociaux techniques (Twitter Dev, LinkedIn)</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tech-watch-card">
+                    <div class="tech-watch-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Technologies Suivies</h3>
+                    </div>
+                    <div class="tech-tags">
+                        <span class="tech-tag">JavaScript ES2024</span>
+                        <span class="tech-tag">React 19</span>
+                        <span class="tech-tag">Vue.js 3</span>
+                        <span class="tech-tag">TypeScript 5</span>
+                        <span class="tech-tag">CSS Grid</span>
+                        <span class="tech-tag">Flexbox</span>
+                        <span class="tech-tag">SASS/SCSS</span>
+                        <span class="tech-tag">Tailwind CSS</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Express.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Git</span>
+                    </div>
+                </div>
+
+                <div class="tech-watch-card">
+                    <div class="tech-watch-header">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Tendances Actuelles</h3>
+                    </div>
+                    <ul class="tech-watch-list">
+                        <li>
+                            <i class="fas fa-trending-up"></i>
+                            <span>Intelligence Artificielle dans le Web</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-trending-up"></i>
+                            <span>Architecture Micro-Frontend</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-trending-up"></i>
+                            <span>Web Components Natifs</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-trending-up"></i>
+                            <span>Performance Web & Core Web Vitals</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="section-intro">
+                <p>N'hésitez pas à me contacter pour discuter de vos projets ou pour toute opportunité de collaboration.</p>
+            </div>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <a href="mailto:julien.parlant@gmail.com" class="contact-link">julien.parlant@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Téléphone</h3>
+                                <a href="tel:+33781424021" class="contact-link">07 81 42 40 21</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Localisation</h3>
+                                <p>9 Rue Soyer<br>92200 Neuilly-sur-Seine</p>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://linkedin.com/in/julien-parlant" target="_blank" class="social-link" title="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/julien-parlant" target="_blank" class="social-link" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-header">
+                            <h3><i class="fas fa-paper-plane"></i> Envoyez-moi un message</h3>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nom</label>
+                                <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="votre.email@exemple.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Sujet</label>
+                            <input type="text" id="subject" name="subject" placeholder="Sujet de votre message" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Votre message" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            Envoyer
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Julien Parlant</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>
